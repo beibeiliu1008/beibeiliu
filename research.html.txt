@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research - Beibei</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Beibei</h1>
+    <p>Postdoctoral Scholar | Ecology & Evolution | UC Davis</p>
+  </header>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="futurelab.html">Future Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Research</h2>
+    <p>
+      My research bridges ecological and evolutionary theory with empirical data.
+      I am interested in topics such as:
+    </p>
+    <ul>
+      <li>Population genomics and species adaptation to environmental change</li>
+      <li>Community assembly and biodiversity patterns</li>
+      <li>Eco-evolutionary feedbacks across temporal and spatial scales</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Beibei | Built with GitHub Pages</p>
+  </footer>
+</body>
+</html>

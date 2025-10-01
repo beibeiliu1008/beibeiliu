@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications - Beibei</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Beibei</h1>
+    <p>Postdoctoral Scholar | Ecology & Evolution | UC Davis</p>
+  </header>
+
+  <nav>
+    <a href="index.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="futurelab.html">Future Lab</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Publications</h2>
+    <ul class="publications">
+      <li><strong>Author(s)</strong>, Year. <em>Title of the publication</em>. Journal, Volume(Issue): Pages.</li>
+      <li><strong>Author(s)</strong>, Year. <em>Another publication</em>. Journal, Volume(Issue): Pages.</li>
+      <!-- Add more -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Beibei | Built with GitHub Pages</p>
+  </footer>
+</body>
+</html>
