@@ -5,13 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beibei Liu - About</title>
   <style>
-  body {
-    background-image: url("Picture1.jpg");
-    background-size: cover;       /* scale to cover entire page */
-    background-repeat: no-repeat; /* don’t tile */
-    background-attachment: fixed; /* stays fixed while scrolling */
-  }
-</style>
+    /* Ensure body fills the page */
+    body {
+      margin: 0;
+      position: relative;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      color: #000; /* default text color */
+    }
+
+    /* Background image with semi-transparency using a pseudo-element */
+    body::before {
+      content: "";
+      position: fixed;       /* stays fixed during scroll */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("Picture1.jpg"); /* your image */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      opacity: 0.5;          /* 50% transparency */
+      z-index: -2;            /* behind all content */
+    }
+
+    /* Optional colored overlay to improve text readability */
+    body::after {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.3); /* white overlay, 30% opacity */
+      z-index: -1; /* sits between background and content */
+    }
+
+    /* Content section styling */
+    header, nav, section, footer {
+      position: relative;
+      padding: 20px 40px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #000;
+    }
+  </style>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -41,6 +83,8 @@
   </footer>
 </body>
 </html>
+
+
 
 
 
